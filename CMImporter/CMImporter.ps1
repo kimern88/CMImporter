@@ -1,4 +1,4 @@
-#Version:        1.0
+#Version:        0.0.1
 #Author:         Kim Andersen
 #Creation Date:  25/03/2021
 #Purpose/Change: Initial script development
@@ -489,7 +489,7 @@ function recreatecmdevice {
 #https://adamtheautomator.com/powershell-gui/
 
 # where is the XAML file?
-$xamlFile = "$PSScriptRoot\MainWindow.xaml"
+$xamlFile = "$PSScriptRoot\resources\MainWindow.xaml"
 
 #create window
 $inputXML = Get-Content $xamlFile -Raw
