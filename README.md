@@ -5,7 +5,7 @@
 
 Powershell based tool for either recreating/creating new AD and/or SCCM objects for faster builds
 
-![](cmimporter/img/cmimporter.jpg?raw=true)
+![cmimporter](CMImporter/img/cmimporter.jpg)
 
 
 Under construction
