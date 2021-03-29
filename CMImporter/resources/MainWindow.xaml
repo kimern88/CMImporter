@@ -13,7 +13,7 @@
             <ColumnDefinition Width="401*"/>
         </Grid.ColumnDefinitions>
         <Label x:Name="ADComputerName" Content="ADComputerName" Margin="10,102,0,0" VerticalAlignment="Top" Height="26" HorizontalAlignment="Left" Width="110"/>
-        <TextBox x:Name="txtComputer" Margin="120,105,0,0" Text="e.g CHBHONBK000" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="110"/>
+        <TextBox x:Name="txtComputer" Margin="120,105,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="110"/>
         <Button x:Name="adCompQuery" Content="Verify" HorizontalAlignment="Left" Margin="236,104,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="adCompQueryresult" Margin="276,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="88" BorderBrush="#FFABADB3"/>
         <Label Content="DistinguishedName" Margin="10,128,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="150"/>
